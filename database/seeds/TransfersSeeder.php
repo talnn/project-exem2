@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class dog_seeder extends Seeder
+class TransfersSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class dog_seeder extends Seeder
      */
     public function run()
     {
-        return null;
+        //
     }
 }
