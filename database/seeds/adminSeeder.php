@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class hoanghiu extends Seeder
+class adminSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -11,6 +11,6 @@ class hoanghiu extends Seeder
      */
     public function run()
     {
-        echo 'em chào a híuuu';
+        //
     }
 }
