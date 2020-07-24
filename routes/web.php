@@ -13,12 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('Admin');
-});
-Route::get('/user',function (){
-    return view('user');
-});
-Route::get('/dashboard.html',function (){
-    return view('Admin');
-});
+//Route::get('/', function () {
+//    return view('Admin');
+//});
+Route::resource('/','DogmanagerController');
