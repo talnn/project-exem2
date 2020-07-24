@@ -50,7 +50,7 @@ The above copyright notice and this permission notice shall be included in all c
                     </a>
                 </li>
                 <li class="nav-item active ">
-                    <a class="nav-link" href="./user.html">
+                    <a class="nav-link" href="./user.blade">
                         <i class="material-icons">person</i>
                         <p>User Profile</p>
                     </a>
