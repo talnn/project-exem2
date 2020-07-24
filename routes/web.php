@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/dashboard.html', function () {
     return view('Admin');
 });
-Route::get('user',function (){
+
+Route::get('/user',function (){
     return view('user');
+});
+Route::get('/dashboard.html',function (){
+    return view('Admin');
 });
