@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateDogtestsTable extends Migration
+class AddOrderToCategories extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,8 @@ class CreateDogtestsTable extends Migration
      */
     public function up()
     {
-        Schema::create('dogtests', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+        Schema::table('(Order)', function (Blueprint $table) {
+            //
         });
     }
 
@@ -26,6 +25,8 @@ class CreateDogtestsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('dogtests');
+        Schema::table('(Order)', function (Blueprint $table) {
+            //
+        });
     }
 }
